@@ -9,7 +9,6 @@ function doesFileExist (filePath) {
         } else {
             let lines = data.split('\n')
             for (let i = 0; i < lines.length; i++) {
-                // console.log(lines[j])
                 let singleLine = lines[i].split('-')
                 console.log(singleLine[0])
                 if (singleLine[1]) {
