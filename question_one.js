@@ -24,7 +24,7 @@ function doesFileExist (filePath) {
     })
 }
 
-doesFileExist("./data.txt")
+doesFileExist("./question_one_data.txt")
 
 
 
